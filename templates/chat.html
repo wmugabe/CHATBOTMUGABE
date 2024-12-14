@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>University Chatbot</title>
+</head>
+<body>
+    <div class="chatbot-container">
+        <h1>University Chatbot</h1>
+        <form method="POST" action="/get_answer">
+            <label for="question">PUT QUESTION HERE:</label>
+            <input type="text" id="question" name="question" placeholder="Type your question here..." required>
+            <button type="submit">SUBMIT</button>
+        </form>
+        {% if question and answer %}
+        <div class="response">
+            <p><strong>Your Question:</strong> {{ question }}</p>
+            <p><strong>Chatbot's Answer:</strong> {{ answer }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
