@@ -13,5 +13,5 @@ qa_dict = {
     "What support services are provided to students?": "Support services include career guidance, entrepreneurship training, ICT labs, libraries, and technical workshops. There are also student welfare offices to address health and social issues.",
     "What are the opportunities for internships and practical training?": "Rwanda Polytechnic emphasizes hands-on learning. Students are required to complete internships and industry-based training as part of their programs. Partnerships with local and international companies help secure these opportunities.",
     "What is Rwanda Polytechnic's reputation and industry connections?": "Rwanda Polytechnic is well-known for its focus on technical and vocational education. It collaborates with industries, government agencies, and international organizations to ensure graduates are job-ready and meet market needs.",
-
+    "Are there opportunities for further studies or professional development?": "Yes, diploma graduates can pursue advanced diploma or degree programs at affiliated universities. Rwanda Polytechnic also offers short-term courses and certifications for professional development.",
     }
